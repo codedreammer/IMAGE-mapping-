@@ -1,0 +1,48 @@
+html,body{
+    width: 100%;
+    height: 120%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #b685d3;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: #113a06;
+}
+    
+
+#container{
+    width: 65%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    background: linear-gradient(45deg,#c77dff,#e0aaff,#9d4edd,#7b2cbf,#5a189a, #240046,#10002b)
+}
+
+#image_container{
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px,100px,50px,100px;
+    background-color:#34a0a4,#52b69a,#74c69d,#95d5b2,#b7e4c7,#d8f3dc;
+    box-shadow: 20px,20px,#358f80,#469d89;
+
+    overflow: hidden;
+}
+
+#image{
+    border: 1px, solid, black;
+    border-radius: 25px,50px,25px,50px;
+
+}
